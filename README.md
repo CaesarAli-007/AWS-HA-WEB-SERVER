@@ -1,7 +1,10 @@
 # AWS High Availability Web Server with AWS EC2 Auto Scaling
+![architecture-diagram](https://github.com/user-attachments/assets/c2af130c-9a14-4495-8dde-d92fccae8f8f)
+
 This project demonstrates the deployment of a Highly Available Web Server architecture using AWS EC2 Auto Scaling and Elastic Load Balancer.
 
 ## Overview
+
 
 This repository contains the infrastructure and configuration files for deploying a highly available web server architecture on AWS using EC2 Auto Scaling, Elastic Load Balancer (ELB), and CloudWatch for monitoring. The setup ensures optimal performance, cost efficiency, and fault tolerance.
 
@@ -30,17 +33,17 @@ This repository contains the infrastructure and configuration files for deployin
 ## Deployment
 
 1. Deploy using Terraform
-
+```
 cd infrastructure/terraform
 
 terraform init
 
 terraform apply -auto-approve
-
+```
 2. Deploy using CloudFormation
-
+```
 aws cloudformation create-stack --stack-name HighAvailabilityStack --template-body file://infrastructure/cloudformation/high-availability.yaml --capabilities CAPABILITY_NAMED_IAM
-
+```
 ## Monitoring & Scaling
 
 - Check CloudWatch for metrics: CPUUtilization, RequestCount, etc.
