@@ -32,7 +32,9 @@ This repository contains the infrastructure and configuration files for deployin
 1. Deploy using Terraform
 
 cd infrastructure/terraform
+
 terraform init
+
 terraform apply -auto-approve
 
 2. Deploy using CloudFormation
