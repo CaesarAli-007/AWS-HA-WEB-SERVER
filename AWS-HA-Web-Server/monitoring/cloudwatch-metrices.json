@@ -1,0 +1,10 @@
+{
+    "metrics": [
+      {
+        "namespace": "AWS/EC2",
+        "metricName": "CPUUtilization",
+        "stat": "Average",
+        "period": 300
+      }
+    ]
+  } 
