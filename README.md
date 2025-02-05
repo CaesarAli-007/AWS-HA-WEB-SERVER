@@ -85,4 +85,4 @@ To ensure cost-effectiveness while maintaining high availability, the following 
 - Containers are deployed using ECS or EKS to improve resource utilization.
 
 # Contributors
-Ali H. Mughal (AWS Solutions Architect – Associate)
+Ali H. Mughal (AWS. Solutions Architect)
