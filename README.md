@@ -1,10 +1,7 @@
 # AWS High Availability Web Server with AWS EC2 Auto Scaling
 ![architecture-diagram](https://github.com/user-attachments/assets/c2af130c-9a14-4495-8dde-d92fccae8f8f)
 
-This project demonstrates the deployment of a Highly Available Web Server architecture using AWS EC2 Auto Scaling and Elastic Load Balancer.
-
 ## Overview
-
 
 This repository contains the infrastructure and configuration files for deploying a highly available web server architecture on AWS using EC2 Auto Scaling, Elastic Load Balancer (ELB), and CloudWatch for monitoring. The setup ensures optimal performance, cost efficiency, and fault tolerance.
 
@@ -14,7 +11,7 @@ This repository contains the infrastructure and configuration files for deployin
 - **EC2 Auto Scaling**: Ensures high availability by dynamically adjusting the number of instances.
 - **AWS CloudWatch**: Proactive monitoring and alerting for performance optimization.
 - **EC2 Spot Instances**: Cost-effective strategy reducing operational costs by up to 29%.
-- **Terraform & CloudFormation**: Infrastructure as Code (IaC) for seamless deployment.
+- **Terraform**: Infrastructure as Code (IaC) for seamless deployment.
 
 ## Prerequisites
 
@@ -85,4 +82,4 @@ To ensure cost-effectiveness while maintaining high availability, the following 
 - Containers are deployed using ECS or EKS to improve resource utilization.
 
 # Contributors
-Ali H. Mughal (AWS. Solutions Architect)
+Ali H. Mughal *(AWS. Solutions Architect)*
